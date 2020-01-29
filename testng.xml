@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.MavenProject_v1.utility.Reporting"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/swyam/IdeaProjects/MavenProject_v1">
+        <parameter name="Browser" value="Chrome"/>
+        <classes>
+            <class name="com.MavenProject_v1.testCase.TC01_Login"/>
+            <!--class name="com.MavenProject_v1.testCase.TC02_LoginDDT"/-->
+            <class name="com.MavenProject_v1.testCase.TC03_AddCustomer"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-29T11:07:22 AEDT" name="All Test Suite" finished-at="2020-01-29T11:07:48 AEDT" duration-ms="26240">
+    <groups>
+    </groups>
+    <test started-at="2020-01-29T11:07:22 AEDT" name="/Users/swyam/IdeaProjects/MavenProject_v1" finished-at="2020-01-29T11:07:48 AEDT" duration-ms="26240">
+      <class name="com.MavenProject_v1.testCase.TC01_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MavenProject_v1.testCase.TC01_Login@4d1c00d0]" started-at="2020-01-29T11:07:22 AEDT" name="setUp" finished-at="2020-01-29T11:07:27 AEDT" duration-ms="4680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.MavenProject_v1.testCase.TC01_Login@4d1c00d0]" started-at="2020-01-29T11:07:27 AEDT" name="loginTest" finished-at="2020-01-29T11:07:29 AEDT" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.MavenProject_v1.testCase.TC01_Login@4d1c00d0]" started-at="2020-01-29T11:07:29 AEDT" name="closeBrowser" finished-at="2020-01-29T11:07:29 AEDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.MavenProject_v1.testCase.TC01_Login -->
+      <class name="com.MavenProject_v1.testCase.TC03_AddCustomer">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.MavenProject_v1.testCase.TC03_AddCustomer@4b2bac3f]" started-at="2020-01-29T11:07:29 AEDT" name="setUp" finished-at="2020-01-29T11:07:33 AEDT" duration-ms="3901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.MavenProject_v1.testCase.TC03_AddCustomer@4b2bac3f]" started-at="2020-01-29T11:07:33 AEDT" name="addNewCustomer" finished-at="2020-01-29T11:07:48 AEDT" duration-ms="15371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.MavenProject_v1.testCase.TC03_AddCustomer@4b2bac3f]" started-at="2020-01-29T11:07:48 AEDT" name="closeBrowser" finished-at="2020-01-29T11:07:48 AEDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.MavenProject_v1.testCase.TC03_AddCustomer -->
+    </test> <!-- /Users/swyam/IdeaProjects/MavenProject_v1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
